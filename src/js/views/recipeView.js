@@ -1,7 +1,8 @@
 import View from "./View";
 
 import icons from "url:../../img/icons.svg"; // Parcel 2
-import { Fraction } from "fractional";
+// import { Fraction } from "fractional"; // ES6 import doesn't work
+const Fraction = require("fractional").Fraction;
 
 class RecipeView extends View {
   _parentElement = document.querySelector(".recipe");

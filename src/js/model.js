@@ -1,5 +1,5 @@
 import { async } from "regenerator-runtime";
-import { API_URL, KEY, RES_PER_PAGE } from "./config";
+import { API_URL, KEY, RES_PER_PAGE } from "./config.js";
 // import { getJSON, sendJSON } from "./helpers";
 import { AJAX } from "./helpers";
 
